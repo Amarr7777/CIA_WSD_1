@@ -1,0 +1,138 @@
+.body{
+    background-color: black;
+}
+
+/*nav*/
+.navbar a{
+    margin-left: 2%;
+    margin-right: 2%;
+    text-decoration: none;
+    color: white;
+}
+
+/*footer*/
+footer{
+    min-height: 20vh;
+    background-color: azure;
+}
+.footer_flex{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    padding-bottom: 20%;
+}
+footer ul li a {
+    text-decoration: none;
+    color: black;
+}
+footer ul li a:hover {
+    text-decoration: none;
+    color: red;
+}
+.license{
+    text-align: center;
+    padding-bottom: 2%;
+    padding-left: 10%;
+}
+.gridd{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+/*index*/
+.card-text{
+    text-align: justify;
+}
+.card-link{
+    text-decoration: none;
+    
+}
+
+/*main_about*/
+.main_about{
+    background-image: url(images/aboutBanner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 5%;
+    padding-bottom: 10%;
+    text-align: center;
+    padding-top: 5%;
+    color: rgb(43, 43, 124);
+}
+.mission{
+    margin: 5%;
+    text-align: justify;
+    color: white;
+    font-size: large;
+}
+.mission h3{
+    text-align: center;
+    padding-bottom: 3%;
+    color: rgb(43, 43, 124);
+}
+
+/*contact*/
+.form_main{
+    margin: 5%;
+}
+
+form{
+    background-color: white;
+    padding: 5%;
+}
+
+/*lesson*/
+.why_this{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+}
+.lesson_head{
+    text-align: center;
+    padding-bottom: 3%;
+    color: rgb(43, 43, 124);
+}
+.audio{
+    padding: 2%;
+    background-color: aliceblue;
+}
+.video{
+    padding: 2%;
+    background-color: aliceblue;
+}
+.lesson_form{
+    background-color: black;
+    color: white;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+/*profile*/
+.pro_main{
+    margin: 5%;
+}
+.pro_main img{
+    width: 200px;
+    border: 2px solid white;
+}
+.pro_main h5{
+    color: rgb(43, 43, 124);
+}
+.pro_main p{
+    text-align: justify;
+    color: white;
+}
+.pro_main figcaption{
+    color: wheat;
+    padding-left: 3.5%;
+}
